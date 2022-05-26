@@ -10,8 +10,10 @@
         android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:inputType="phone"
         android:layout_alignParentTop="true"
         android:layout_marginTop="61dp"
+        android:hint="Enter a number"
         android:layout_toRightOf="@+id/textView1"
         android:ems="10" />
     <TextView
@@ -30,5 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="34dp"
         android:text="Submit" />
+
+
 
 </RelativeLayout>
